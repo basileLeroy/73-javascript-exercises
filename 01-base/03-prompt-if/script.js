@@ -12,5 +12,15 @@
 (function() {
 
   // your code here
+  const question = prompt("Do you want some cake?", "Yes/No");
+
+  if (question == "yes") {
+    let congrats = "Congratz!"
+    alert(congrats)
+  }
+  else if (question != "yes") {
+    let glutton = "More cake for me then :p !"
+    alert(glutton)
+  }
 
 })();
