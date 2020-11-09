@@ -12,5 +12,11 @@
 (function() {
 
     // your code here
+    var person = prompt("Please enter your name", "Name");
+
+    var greeting = "Hello, " + person + "!";
+    alert(greeting);
+
+
 
 })();
