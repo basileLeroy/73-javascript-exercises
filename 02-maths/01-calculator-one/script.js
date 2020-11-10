@@ -14,6 +14,14 @@
 
     document.getElementById("addition").addEventListener("click", function() {
         // perform an addition
+        let a = document.getElementById("op-one");
+        let b = document.getElementById("op-two");
+
+        let add = Number(a.value)+Number(b.value); {
+            alert(add);
+        }
+        
+
     });
 
     document.getElementById("substraction").addEventListener("click", function() {
