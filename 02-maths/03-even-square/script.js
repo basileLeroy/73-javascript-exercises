@@ -9,12 +9,20 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
 
     document.getElementById("run").addEventListener("click", function() {
 
-        // your code here
+        
+        
+        let x = 1;
 
-    });
+        while (x < 21) {
+    
+            let num = x * x;
+            x++;
+            alert(num);
+        }
 
-})();
+    }
+
+)()
