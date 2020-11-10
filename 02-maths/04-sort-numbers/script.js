@@ -12,11 +12,19 @@
 (function() {
 
     // to get the value of an input: document.getElementById("element-id").value
+    
+    
 
     document.getElementById("run").addEventListener("click", function() {
 
-        // your code here
+        let integers = document.getElementById("numbers").value;
+        let array = integers.split(', ');
+        let correct = array.sort (function(a, b) {return a - b;
+        });
+
+        alert("The Right Order is: " + correct);
 
     });
+    
 
 })();
