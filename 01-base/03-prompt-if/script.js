@@ -11,7 +11,11 @@
 
 (function() {
 
-  // your code here
+
+  console.log("Good job!")
+  
+
+  
   const question = prompt("Do you want some cake?", "Yes/No");
 
   if (question == "yes") {
