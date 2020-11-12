@@ -9,8 +9,10 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+document.getElementById("run").addEventListener("click", function() {
 
-    // your code here
+    const backgrnd = Math.floor(Math.random()*16777215).toString(16);
+
+    document.body.style.backgroundColor = "#" + backgrnd;
 
 })();
