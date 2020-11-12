@@ -11,8 +11,8 @@
 
 
 
-    function red() {
-        document.body.style.backgroundColor = "red";
+    function bleu() {
+        document.body.style.backgroundColor = "bleu";
     }
 
     function green() {

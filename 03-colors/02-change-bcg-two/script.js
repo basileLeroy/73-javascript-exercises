@@ -9,8 +9,13 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
 
-    // your code here
+document.getElementById("run").addEventListener("click", function() {
+
+    let order = document.getElementById("color");
+
+    document.body.style.backgroundColor = order.value;
 
 })();
+
+
