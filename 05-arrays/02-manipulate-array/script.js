@@ -8,22 +8,25 @@
 
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
+var fruits = [
+    "pomme",
+    "poire",
+    "fraise",
+    "tomate",
+    "orange",
+    "mandarine",
+    "durian",
+    "pêche",
+    "raisin",
+    "cerise",
+];
 
-(function() {
 
-    var fruits = [
-        "pomme",
-        "poire",
-        "fraise",
-        "tomate",
-        "orange",
-        "mandarine",
-        "durian",
-        "pêche",
-        "raisin",
-        "cerise",
-    ];
-
+document.getElementById("run").addEventListener("click", function(){
     // your code here
+    fruits[0] = "Banana";
+    fruits[9] = "kiwi";
 
-})();
+    console.log(fruits);
+
+});
