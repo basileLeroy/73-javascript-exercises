@@ -12,5 +12,10 @@
 (function() {
 
     // your code here
+    // get a var for your year: make it a doc.getElementById(""). get a search date var with year var set in the year position in the array
+    //console.log(var on exact date);
+    let year = document.getElementById("");
+    let n = new Date(year.value);
+    let day = n.getDay()
 
 })();

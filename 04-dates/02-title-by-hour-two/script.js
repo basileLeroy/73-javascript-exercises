@@ -14,5 +14,24 @@
     // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
 
     // your code here
+    let today = new Date();
+    let hour = today.getHours();
+    let min = today.getMinutes();
+    let sec = today.getSeconds();
+    const timer = ([hour] + ", " + [min] + ", " + [sec]);
+    const time = ([17] + ", " + [30] + ", " + [0]);
+    
+    
+    
+
+    if (timer < time) {
+        document.getElementById("target").innerHTML = "Hello!";
+    }
+
+    else {
+        document.getElementById("target").innerHTML = "Good evening!";
+    }
+    console.log(timer);
+    console.log(time)
 
 })();
