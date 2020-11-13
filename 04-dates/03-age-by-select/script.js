@@ -38,10 +38,4 @@ document.getElementById("run").addEventListener("click", function() {
     let age = getAge("dob"); // asks for the const "dob", wich is displayed in in the same way as a date is.
     alert(age);
 
-
-
-
-
-
-
 });
