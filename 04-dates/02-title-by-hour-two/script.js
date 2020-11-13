@@ -18,8 +18,8 @@
     let hour = today.getHours();
     let min = today.getMinutes();
     let sec = today.getSeconds();
-    const timer = ([hour] + ", " + [min] + ", " + [sec]);
-    const time = ([17] + ", " + [30] + ", " + [0]);
+    const timer = ([hour] + ", " + [min] + ", " + [sec]); 
+    const time = ([17] + ", " + [30] + ", " + [0]); //I made a const (time) with a set value (distributed in an array for easier manouvrability) that has the same structure as my other const (timer). so that it can compare in the if statement.
     
     
     
