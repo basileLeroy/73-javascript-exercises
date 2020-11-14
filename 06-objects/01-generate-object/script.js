@@ -18,6 +18,8 @@ document.getElementById("run").addEventListener("click", function() {
         Country = "chocolate-land",
     ];
 
+    console.log("Hey, I am " + firstname + " " + lastname + ", and I am " + age + " years old. I come from " + city + " and i am a proud citizen of " + Country);
     console.log(aboutMe);
+
     // your code here
 });
