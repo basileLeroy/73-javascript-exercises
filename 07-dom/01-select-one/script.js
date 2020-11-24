@@ -12,5 +12,9 @@
 (function() {
 
     // your code here
+    const target = document.querySelector('#target');
 
+    // Made a const from the target
+    // called upon the target and entered it's innerHTML to change the input to "owned"
+    target.innerHTML = "owned";
 })();
