@@ -11,6 +11,17 @@
 
 (function() {
 
-    // your code here
+    let target = document.querySelectorAll('.target');
 
+    // Made a const from the target
+    // called upon the target and entered it's innerHTML to change the input to "owned"
+    
+    target.forEach(element => {
+        element.innerHTML = "Owned!"
+        console.log(element);
+    });
+    
+    
+    
+    console.log(target);
 })();
