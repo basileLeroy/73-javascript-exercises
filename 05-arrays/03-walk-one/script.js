@@ -11,6 +11,7 @@
 
 (function() {
 
+    const action = document.querySelector('#run');
     var fruits = [
         "apple",
         "pear",
@@ -27,8 +28,11 @@
     ];
 
     // your code here
-    fruits.forEach(fruit => {
-        console.log(fruit);
-    });
+    action.addEventListener("click", function() {
+        
+        fruits.forEach(fruit => {
+            console.log(fruit);
+        });
+    })
 
 })();
