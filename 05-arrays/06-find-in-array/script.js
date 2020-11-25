@@ -11,6 +11,7 @@
 
 (function() {
 
+    const action = document.querySelector('#run');
     const people = [
         {
             firstname: "Bradford",
@@ -91,4 +92,12 @@
 
     // your code here
 
+    action.addEventListener("click", function() {
+        people.forEach(person =>{
+            if (person.firstname.includes("Jean") && person.lastname.includes("Dupont")) {
+                console.log(person);
+            };
+        });
+        
+    });
 })();
