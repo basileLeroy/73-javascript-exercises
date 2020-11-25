@@ -11,6 +11,9 @@
 
 (function() {
 
+    const action = document.querySelector('#run');
+    
+
     const people = [
         {
             firstname: "Dreddy",
@@ -90,5 +93,16 @@
     ];
 
     // your code here
+
+    action.addEventListener("click", function() {
+       
+        let oldpoeple = people.filter(function(crazyOld) {
+            return crazyOld.age > 18;
+
+            
+        });
+        console.log(oldpoeple);
+        
+    });
 
 })();
