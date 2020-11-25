@@ -10,6 +10,7 @@
 // You will have time to focus on it later.
 
 (function() {
+    const action = document.querySelector('#run');
 
     var people = [
         {
@@ -39,6 +40,13 @@
         },
     ];
 
+
     // your code here
 
+    action.addEventListener("click", function() {
+        people.forEach(person => {
+            console.log(person.firstname + " " + person.lastname);
+        });
+        
+    });
 })();
