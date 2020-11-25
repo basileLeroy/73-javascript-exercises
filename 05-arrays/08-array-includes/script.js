@@ -11,6 +11,7 @@
 
 (function() {
 
+    const action = document.querySelector('#run');
     const fruits = [
         "apple",
         "perry",
@@ -27,5 +28,14 @@
     ];
 
     // your code here
+    action.addEventListener("click", function() {
+        
+            if (fruits.includes("apple")) {
+                console.log("Yes, it seems that there is an apple amongst us.")
+            } else {
+                console.log("I have not seen such a marvelous piece of fruit amongst the others...")
+            };
+        
+    })
 
 })();
