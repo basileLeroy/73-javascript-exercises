@@ -37,7 +37,9 @@
             
             
             computers[i] = {
+                // ... sources = new version of object.assign({}, obj2, obj3) 
                 ...defaultProps,
+                // using [] to run the objects one by one instead of all of then each time over again
                 ...computers[i]
             };
             
