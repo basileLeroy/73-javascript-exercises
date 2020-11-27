@@ -11,6 +11,18 @@
 
 (function() {
 
-    // your code here
+    
+    const target = document.querySelector("#target");
+    let speed = 50;
+    let i = 0
+
+    function() {
+        if ( i < target.length) {
+
+            target.innerHTML += target.charAt(i);
+            i++;
+            setTimeout(speed);
+        };
+    };
 
 })();
