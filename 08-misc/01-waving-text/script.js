@@ -28,22 +28,8 @@
 
         let span = '<span style="font-size: ' + wordSize + ';">' + letterText[i] + '</span>'
         spanText.push(span);
-
     };
 
     targetText.innerHTML = spanText.join('');
-
-    
-    
-    // for (i = 0; i < text.length; i++) {
-    //     text[i].style.display = "inline-block";
-    //     text[i].style.color = "red";
-    //     text[i].style.transform = "translateY(-30px)";
-    //     text[i].style.transition = "0.5s";
-    //     text[i].style.transitionDelay = "25ms";
-    // };
-
-
-    console.log(wordText);
 
 })();
