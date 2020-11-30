@@ -12,7 +12,7 @@
 
 (() => {
     // your code here
-
+    
     // Making a function (function) on click (this is called a callback, as it reacts only when calling on it) 
     document.querySelector('#run').addEventListener("click", function () {
 
