@@ -13,4 +13,17 @@
 
     // your code here
 
+    let imageData = document.querySelector('#source');
+    let imageAttribute = imageData.getAttribute('data-image');
+
+    let image = document.createElement('img');
+
+    image.src = imageAttribute;
+
+    document.querySelector('#target').appendChild(image);
+
+    imageData.remove();
+
+    
+
 })();
